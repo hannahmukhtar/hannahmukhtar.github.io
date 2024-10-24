@@ -1,0 +1,54 @@
+/* project1.css */
+
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+
+main {
+    margin-top: 60px; /* Add top margin equal to navbar height */
+}
+
+
+.background-section {
+    background-image: url('https://i.imgur.com/2nN8HxU.png');
+    background-size: cover; 
+    background-position: center;
+    border: none; /* No border */
+    width: 100%;
+    min-height: 100vh; /* Minimum height to cover the viewport */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: black;
+    font-family: 'Bacasime Antique', 'Times New Roman';
+    text-align: center;
+}
+
+.content {
+    padding: 20px; /* Add some padding for the content */
+    max-width: 800px; /* Limit the width of content for better readability */
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* Change text color to white */
+    background-color: #C2313D; /* Cherry red */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Add some margin to the button */
+}
+
+.button-link:hover {
+    background-color: #A81F2D; /* Darker red on hover */
+}
+
+.footer {
+background-color:#D88682;
+}
+
+
