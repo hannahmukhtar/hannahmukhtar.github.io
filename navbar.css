@@ -1,40 +1,41 @@
-/* navbar.css */
 
 .navbar {
-    background-color: #D88682; /* Navbar color */
-    height: 60px; /* Set the desired height */
-    position: fixed; /* Fix it to the top */
-    top: 0; /* Align it to the top */
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensure it is above other elements */
+    background-color: #D88682; 
+    height: 60px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
     overflow: hidden;
 }
 
 .navbar ul {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Space items evenly */
-    align-items: center; /* Center items vertically */
-    height: 100%; /* Full height of navbar */
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100%; 
 }
 
 .navbar li {
-    display: inline; /* Inline display for list items */
+    display: inline; 
 }
 
 .navbar a {
-    display: block; /* Block display for links */
-    color: rgb(0, 0, 0); /* Link text color */
-    text-align: center; /* Center link text */
-    font-family: "Playfair Display SC", "Times New Roman"; /* Font family */
-    padding: 0 20px; /* Horizontal padding */
-    line-height: 60px; /* Vertically center text */
-    text-decoration: none; /* Remove underline */
+    display: block; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    font-family: "Playfair Display SC", "Times New Roman"; 
+    padding: 0 20px; 
+    line-height: 60px; 
+    text-decoration: none; 
 }
 
 .navbar a:hover {
-    background-color: #dca09d; /* Lighten on hover */
-    color: rgb(0, 0, 0); /* Change text color on hover */
+    background-color: #dca09d;
+    color: rgb(0, 0, 0); 
 }
+
+
