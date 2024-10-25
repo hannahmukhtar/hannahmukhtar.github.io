@@ -66,11 +66,11 @@ footer {
     font-size: 18px;
     text-align: center;
     color: black;
-    margin: 60px 0 0 0; /* Adjust to 70px or higher to clear the fixed navbar */
-    padding: 0; /* Ensure no extra padding */
-    background-color: #D88682; /* Optional */
-    line-height: 1.8; /* Adjust line height */
-    position: relative; /* Add this */
+    margin: 60px 0 0 0; 
+    padding: 0; 
+    background-color: #D88682; 
+    line-height: 1.8; 
+    position: relative; 
     z-index: 1;
 }
 
