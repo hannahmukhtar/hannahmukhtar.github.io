@@ -1,0 +1,42 @@
+
+.navbar {
+    background-color: #D88682; 
+    height: 40px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100%; 
+}
+
+.navbar li {
+    display: inline; 
+}
+
+.navbar a {
+    display: block; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    font-family: "Playfair Display SC", "Times New Roman"; 
+    padding: 0 8px; 
+    line-height: 30px; 
+    text-decoration: none; 
+
+}
+
+.navbar a:hover {
+    background-color: #dca09d;
+    color: rgb(0, 0, 0); 
+}
+
+
